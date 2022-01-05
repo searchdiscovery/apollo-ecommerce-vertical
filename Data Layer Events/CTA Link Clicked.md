@@ -4,7 +4,7 @@
 
 ## Javascript Code
 ```js
-window.appEventData = window.appEventData || [];
+window.appEventData = window.appEventData || [];;;
 appEventData.push({
   "event": "CTA Link Clicked",
     "linkInfo": {
@@ -19,5 +19,6 @@ appEventData.push({
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |linkId|string|Identifier of the link clicked|act now, cancel, ok, 3456, 8765|||||||
 
+## Attached Notes
 
-
+<p>Set when links are clicked.</p>
