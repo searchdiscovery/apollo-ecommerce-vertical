@@ -4,7 +4,7 @@
 
 ## Javascript Code
 ```js
-window.appEventData = window.appEventData || [];
+window.appEventData = window.appEventData || [];;;
 appEventData.push({
   "event": "Page Load Started",
     "page": {
@@ -20,6 +20,7 @@ appEventData.push({
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |pageName|string|Describes the page and its content specifically. |product - XYZ123, Mens - Tops - Sweaters, Order Confirmation|||||||
 |pageType|string|Describes what purpose the page serves. Often aligns with the CMS template.|Home, Event Detail, Property Detail, Product Listing, Blog Post, Shopping Cart|||||||
+
 
 
 
